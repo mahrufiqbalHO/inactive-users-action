@@ -18,7 +18,7 @@ jobs:
         uses: ./
         with:
           token: ${{ secrets.ORGANIZATION_AND_REPO_ACCESS_TOKEN }}
-          organization: UKHomeOffice
+          organization: HO-CTO
           activity_days: 90
           octokit_max_retries: 3
           
