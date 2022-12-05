@@ -18,8 +18,8 @@ jobs:
         uses: ./
         with:
           token: ${{ secrets.ORGANIZATION_AND_REPO_ACCESS_TOKEN }}
-          organization: HO-CTO
-          activity_days: 90
+          organization: UKHomeOffice
+          activity_days: 1
           octokit_max_retries: 3
           
 #       - name: Validate Outputs
