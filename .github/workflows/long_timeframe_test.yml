@@ -19,7 +19,7 @@ jobs:
         with:
           token: ${{ secrets.ORGANIZATION_AND_REPO_ACCESS_TOKEN }}
           organization: UKHomeOffice
-          activity_days: 1
+          activity_days: 30
           octokit_max_retries: 3
           
 #       - name: Validate Outputs
